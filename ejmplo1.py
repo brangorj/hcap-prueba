@@ -8,5 +8,5 @@ imagen=cv2.resize(imagen,(256,256))
 
 cv2.imwrite("resiceimagen.jpg",imagen)
 cv2.imshow("image",imagen)
-cv2.waitkey(0)
+cv2.waitKey(0)
 
